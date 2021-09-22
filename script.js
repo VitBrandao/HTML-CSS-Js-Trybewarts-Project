@@ -1,14 +1,12 @@
-let firstButton = document.getElementsByClassName("btn")[0]; 
-
-firstButton.addEventListener("click", checkButton);
-
+const firstButton = document.getElementsByClassName('btn')[0]; 
 function checkButton() {
-  let firstInput = document.getElementsByClassName("email")[0];
-  let secondInput = document.getElementsByClassName("password")[0];
-  
-  if (firstInput.value === "tryber@teste.com" && secondInput.value === "123456") {
-    alert("Olá, Tryber!");
+  const firstInput = document.getElementsByClassName('email')[0];
+  const secondInput = document.getElementsByClassName('password')[0];
+  if (firstInput.value === 'tryber@teste.com' && secondInput.value === '123456') {
+    alert('Olá, Tryber!');
   } else {
-    alert("Email ou senha inválidos.");
+    alert('Email ou senha inválidos.');
   }
 }
+
+firstButton.addEventListener('click', checkButton);
