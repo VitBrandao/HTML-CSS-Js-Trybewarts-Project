@@ -23,3 +23,10 @@ main form {
   flex-direction: row;
 }
 
+.full-name {
+  display: inline;
+}
+
+.email-house {
+  display: inline-block;
+}
