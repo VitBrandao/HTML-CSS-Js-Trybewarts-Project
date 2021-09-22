@@ -22,3 +22,11 @@ main form {
   display: flex;
   flex-direction: row;
 }
+
+.full-name {
+  display: inline;
+}
+
+.email-house {
+  display: inline-block;
+}
