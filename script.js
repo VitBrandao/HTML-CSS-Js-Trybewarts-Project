@@ -10,3 +10,15 @@ function checkButton() {
 }
 
 firstButton.addEventListener('click', checkButton);
+
+// Requisito 18
+const submitButton = document.getElementById('submit-btn');
+const finalCheckbox = document.getElementById('agreement');
+
+submitButton.disabled = true;
+
+function enableButton() {
+  submitButton.disabled = false;
+}
+
+finalCheckbox.addEventListener('click', enableButton);

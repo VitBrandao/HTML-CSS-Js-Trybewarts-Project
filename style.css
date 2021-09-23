@@ -55,7 +55,7 @@ main form {
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
-} 
+}
 
 .familyInputs {
   display: flex;
